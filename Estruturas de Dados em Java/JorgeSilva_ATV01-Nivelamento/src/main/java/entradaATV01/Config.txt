@@ -1,0 +1,65 @@
+===== ESTRUTURAS DE DADOS EM JAVA =====
+
+1. ELEMENTO
+- A menor unidade da estrutura.
+- Contém uma referência para o elemento anterior e o próximo nas listas, e para os elementos esquerda e direita nas árvores, permitindo a ligação das estruturas.
+- Possui um valor do tipo TIPO.
+
+2. ITERATORLISTALIGADA
+- Permite a iteração pelos elementos de ListaLigada.
+- Mantém uma referência ao elemento atual e pode avançar para o próximo.
+- Métodos:
+  - temProximo(): Retorna verdadeiro se houver um próximo elemento.
+  - getProximo(): Retorna o próximo elemento e avança o iterador.
+
+3. LISTALIGADA
+- Uma estrutura de lista duplamente ligação.
+- Mantém referências ao primeiro e último elemento para otimizar certas operações.
+- Permite inserção, remoção e busca de elementos.
+- Métodos:
+  - adicionar(): Insere um elemento ao final da lista.
+  - adicionarComeco(): Adiciona um elemento ao começo da lista, função utilizada para implementação das filas.
+  - remover(): Remove um elemento específico da lista.
+  - get(): Retorna o elemento em uma posição específica.
+  - imprimirPrimeiroEUltimo(): Imprime o primeiro e o último elemento da lista.
+  - imprimir(): Imprime todos os elementos da lista.
+  - buscar(): Busca um elemento específico na lista e retorna sua posição.
+
+4. PILHA
+- Uma estrutura de pilha baseada em ListaLigada.
+- Os elementos são adicionados e removidos sempre no topo da pilha.
+- Métodos:
+  - adicionar(): Adiciona um novo elemento no topo da pilha.
+  - remover(): Remove o elemento do topo da pilha.
+  - get(): Retorna o elemento no topo da pilha.
+
+5. FILA
+- Uma estrutura de fila baseada em ListaLigada.
+- Os elementos são adicionados no final da fila e removidos no início da fila.
+- Métodos:
+  - adicionar(): Adiciona um novo elemento no final da fila.
+  - remover(): Remove o elemento do início da fila.
+  - getPrimeiro(): Retorna o primeiro elemento da fila.
+
+6. ARVORE
+- Uma estrutura de árvore binária.
+- Mantém uma referência para o elemento raiz, bem como para os seus filhos à direita e esquerda.
+- Métodos:
+  - adicionar(): Adiciona um novo elemento na árvore.
+  - remover(): Remove um elemento da árvore.
+  - buscar(): Busca um elemento com um valor específico na árvore.
+  - imprimir(): Imprime os elementos da árvore em ordem.
+
+7. TESTE(S)
+- Classes responsáveis por executar as operações nas estruturas a partir de arquivos de texto.
+- Métodos:
+  - main(): Lê os arquivos de entrada e execução, adiciona os elementos na estrutura e executa as operações especificadas no arquivo de execução. As operações disponíveis são:
+    - IMPRIMIR: Imprime os elementos da árvore em ordem.
+    - INSERIR: Adiciona um novo elemento na árvore.
+    - REMOVER: Remove um elemento da árvore.
+    - BUSCAR: Busca um elemento com um valor específico na árvore.
+
+===== OBSERVAÇÕES =====
+
+- Garanta que o caminho para os arquivos TXT estejam correto ao tentar ler os elementos.
+

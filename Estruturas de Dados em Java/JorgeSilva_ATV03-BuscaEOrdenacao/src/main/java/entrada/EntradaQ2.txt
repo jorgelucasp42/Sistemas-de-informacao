@@ -1,0 +1,6 @@
+1,Queijo,10.99
+2,Sabao,20.50
+3,Panela,40.30
+4,Oleo,10.45
+5,Assolan,5.20
+6,Cafe, 10.00
