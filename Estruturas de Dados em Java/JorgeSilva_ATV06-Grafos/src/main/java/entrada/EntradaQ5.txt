@@ -1,0 +1,10 @@
+São Luís
+Caxias
+São Luís; Imperatriz; 630
+Imperatriz; Caxias; 560
+São Luís; Balsas; 810
+Balsas; Caxias; 390
+São Luís; Bacabal; 250
+Bacabal; Caxias; 220
+Imperatriz; Bacabal; 600
+Bacabal; Balsas; 550

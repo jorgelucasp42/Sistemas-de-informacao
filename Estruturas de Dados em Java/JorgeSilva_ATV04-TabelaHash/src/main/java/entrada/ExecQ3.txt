@@ -1,0 +1,6 @@
+IMPRIMIR
+INSERIR 5 Lucas Moraes lucas.moraes@uol.com Codó
+IMPRIMIR
+BUSCAR 2
+REMOVER 1
+BUSCAR 12

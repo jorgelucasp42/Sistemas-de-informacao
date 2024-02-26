@@ -1,0 +1,9 @@
+insert jordan Michael Jordan
+insert bryant Kobe Bryant
+insert james LeBron James
+insert durant Kevin Durant
+insert curry Stephen Curry
+search james
+delete durant
+insert irving Kyrie Irving
+search curry
